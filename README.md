@@ -1,12 +1,11 @@
 # Telegram Voice Bot
 
-Бот для Telegram с поддержкой голосового интерфейса, использующий OpenAI ChatGPT и Whisper API.
+Бот для Telegram с поддержкой голосового интерфейса, использующий OpenAI ChatGPT и ElevenLabs для генерации голоса.
 
 ## Возможности
 
 - Обработка текстовых сообщений с ответами от ChatGPT
-- Распознавание голосовых сообщений через Whisper API
-- Генерация голосовых ответов через gTTS
+- Генерация голосовых ответов через ElevenLabs (реалистичный TTS)
 - Двусторонняя коммуникация (текст и голос)
 
 ## Установка
@@ -43,6 +42,7 @@ python bot.py
 - Python 3.7+
 - Telegram Bot Token
 - OpenAI API Key
+- ElevenLabs API Key
 
 ## Лицензия
 
